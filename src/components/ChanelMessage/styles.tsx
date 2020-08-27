@@ -75,3 +75,12 @@ export const Content = styled.div`
   font-size: 15px;
   color: var(--white);
 `;
+
+export const Mention = styled.span`
+  color: var(--link);
+  cursor: pointer;
+
+  &.hover {
+    text-decoration: underline;
+  }
+`;
